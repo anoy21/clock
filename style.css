@@ -1,0 +1,67 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.cont {
+    font-size: 30px;
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    /* transform: translateX(10%); */
+}
+
+#buttonflex {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+button:hover{
+transform: scale(1.1);
+transition: 250ms;
+}
+
+button:active{
+    transform: scale(0.85);
+    transition: 250ms;
+}
+
+button {
+    width: 125px;
+    height: 45px;
+    border-top: .5px solid white;
+    border-left: .5px solid white;
+    border-bottom: none;
+    border-right: none;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    transition: 250ms;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+}
